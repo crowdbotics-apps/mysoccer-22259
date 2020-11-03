@@ -27,7 +27,14 @@ export default class Blank extends React.Component {
 
   render = () => (
     <View>
-      <View style={styles.View_3} />
+      <View style={styles.View_3}>
+        <Image
+          source={{
+            uri:
+              "https://d3tklmlrp1a8c2.cloudfront.net/media/project_component_resources/1603779701336-822923547.png"
+          }}
+        />
+      </View>
     </View>
   )
 }
@@ -37,11 +44,20 @@ const styles = StyleSheet.create({
     flex: 1,
     marginHorizontal: 16
   },
+
   View_1: {},
   View_3: {
     width: "100%",
     height: 200,
     alignSelf: "center",
     alignItems: "center"
-  }
+  },
+  View_1: {},
+  View_3: {
+    width: "100%",
+    height: 200,
+    alignSelf: "center",
+    alignItems: "center"
+  },
+  Image_5: {}
 })
